@@ -33,3 +33,13 @@ make apply
 You might have to change the vivaldi directory in the Makefile.
 
 Go to the vivaldi settings, in the "appearance" category and add the `css_mods` directory that was created in your vivaldi dierctory (typically `/opt/vivaldi/resouces/vivaldi`).
+
+## Want to do your own tweaking?
+
+Close all Vivaldi instances and start Vivaldi with the options:
+```
+--flag-switches-begin --debug-packed-apps --silent-debugger-extension-api --flag-switches-end
+```
+This will allow you to use the inspect tool on the UI by right-clicking elements. You can experiment from here.
+
+If you want to add your own CSS code, edit an existing or add a `.css` file in this directory and reapply the mod.
