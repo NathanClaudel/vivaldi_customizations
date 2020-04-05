@@ -12,7 +12,7 @@ It removes the use of the accent color in the address bar (I like to keep it in 
 
 Minor modifications are made to the menubar buttons (circular highlight with fading added).
 
-These customizations play really nicely with gnome and allows for the use of combined address bars when maximized (unity-style) for minimal wasted space.
+These customizations play really nicely with gnome and allows for the use of more features built-in your browser, such as hidden or combined address bars when maximized (unity-style) for minimal wasted space.
 
 ## Screenshots
 
