@@ -8,7 +8,7 @@ These customizations are meant to be used with __native windows__ and __side tab
 
 To minimize wasted vertical space with native windows, it removes the header bar (rendering the vivaldi button or the horizontal menu only accessible via the F10 key).
 
-It removes the use of the accent color in the address bar (I like to keep it in the tabs) so I can match my browser's background color with my native window titlecar color.
+It removes the use of the accent color in the address bar (I like to keep it in the tabs) so I can match my browser's background color with my native window titlebar color.
 
 Minor modifications are made to the menubar buttons (circular highlight with fading added).
 
