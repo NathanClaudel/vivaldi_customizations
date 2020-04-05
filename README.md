@@ -24,7 +24,7 @@ Dark theme configuration with Gnome:
 
 ## How to use
 
-Visit [](vivaldi://experiments) and tick the "Allow for CSS modifications" box.
+Visit [vivaldi://experiments](vivaldi://experiments) and tick the "Allow for CSS modifications" box.
 
 Run as an administrator:
 ```
