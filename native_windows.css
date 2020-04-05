@@ -1,0 +1,24 @@
+#header
+{
+	display: none;
+}
+
+.toolbar-mainbar
+{
+	background-color: var(--colorBg) !important;
+}
+
+.toolbar-mainbar.toolbar-large::after
+{
+	background-color: var(--colorBg) !important;
+}
+
+.addressfield
+{
+	background-color: var(--colorBgLighter) !important;
+}
+
+.toolbar-mainbar .button-toolbar button
+{
+	color: var(--colorImageForeground, var(--colorFg)) !important;
+}

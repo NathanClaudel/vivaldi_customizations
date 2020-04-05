@@ -1,0 +1,6 @@
+.toolbar-mainbar .button-toolbar button
+{
+	transition: all 0.3s;
+	border-radius: 50% !important;
+	margin: 2px !important;
+}
