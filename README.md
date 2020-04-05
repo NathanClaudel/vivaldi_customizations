@@ -26,13 +26,13 @@ Dark theme configuration with Gnome:
 
 Visit [vivaldi://experiments](vivaldi://experiments) and tick the "Allow for CSS modifications" box.
 
-Run as an administrator:
+Run with root privileges:
 ```
 make apply
 ```
 You might have to change the vivaldi directory in the Makefile.
 
-Go to the vivaldi settings, in the "appearance" category and add the `css_mods` directory that was created in your vivaldi dierctory (typically `/opt/vivaldi/resouces/vivaldi`).
+Go to the vivaldi settings, in the "appearance" category and add the `css_mods` directory that was created in your vivaldi directory (typically `/opt/vivaldi/resouces/vivaldi`).
 
 ## Want to do your own tweaking?
 
