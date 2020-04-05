@@ -17,10 +17,10 @@ These customizations play really nicely with gnome and allows for the use of com
 ## Screenshots
 
 Light theme configuration with Gnome:
-![](light_theme.png)
+![](light_screen.png)
 
 Dark theme configuration with Gnome:
-![](dark_theme.png)
+![](dark_screen.png)
 
 ## How to use
 
