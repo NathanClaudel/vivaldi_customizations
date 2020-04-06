@@ -1,0 +1,23 @@
+#tabs-container.left
+{
+    width: 30px!important;
+    overflow: visible!important;
+}
+
+#tabs-container.left .resize
+{
+    background-color: var(--colorBgAlpha);
+    backdrop-filter: blur(10px);
+    width: 30px!important;
+    transition: width 0.3s;
+}
+
+#tabs-container.left .resize:hover
+{
+    width: 200px!important;
+}
+
+#tabs-container .fullheight
+{
+    display:none;
+}
