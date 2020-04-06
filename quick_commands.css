@@ -1,0 +1,11 @@
+#modal-bg
+{
+    backdrop-filter: blur(10px);
+    background-color: var(--colorBgAlpha);
+}
+
+#modal-bg *:not([data-selected])
+{
+    background-color: rgba(0,0,0,0)!important;
+}
+

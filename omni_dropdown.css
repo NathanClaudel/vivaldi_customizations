@@ -1,0 +1,5 @@
+.OmniDropdown
+{
+    background: var(--colorBgAlpha);
+    backdrop-filter: blur(20px);
+}
