@@ -12,15 +12,23 @@ It removes the use of the accent color in the address bar (I like to keep it in 
 
 Minor modifications are made to the menubar buttons (circular highlight with fading added).
 
+The omnibox dropdown and quick command menus use a blurred transparency effect.
+
 These customizations play really nicely with gnome and allows for the use of more features built-in your desktop environment, such as hidden or combined address bars when maximized (unity-style) for minimal wasted space.
 
 ## Screenshots
 
 Light theme configuration with Gnome:
-![](light_screen.png)
+![](screenshots/light_screen.png)
 
 Dark theme configuration with Gnome:
-![](dark_screen.png)
+![](screenshots/dark_screen.png)
+
+Light theme omnibox dropdown:
+![](screenshots/omni_dropdown.png)
+
+Dark theme quick command:
+![](screenshots/quick_command.png)
 
 ## How to use
 
