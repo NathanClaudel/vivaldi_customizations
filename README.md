@@ -40,6 +40,6 @@ Close all Vivaldi instances and start Vivaldi with the options:
 ```
 --flag-switches-begin --debug-packed-apps --silent-debugger-extension-api --flag-switches-end
 ```
-This will allow you to use the inspect tool on the UI by right-clicking elements. You can experiment from here.
+This will allow you to use the inspect tool on the UI by right-clicking elements. You can experiment from here. You can also type `make edit` but you might have to change the vivaldi executable name in the Makefile.
 
 If you want to add your own CSS code, edit an existing or add a `.css` file in this directory and reapply the mod.
