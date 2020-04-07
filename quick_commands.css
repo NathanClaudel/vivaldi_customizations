@@ -1,9 +1,11 @@
+/* set translucent background with blur effect */
 #modal-bg
 {
     backdrop-filter: blur(10px);
     background-color: var(--colorBgAlpha);
 }
 
+/* remove elements background except for selected commands */
 #modal-bg *:not([data-selected])
 {
     background-color: rgba(0,0,0,0)!important;

@@ -1,23 +1,24 @@
+/* hide the menu/vivaldi button bar */
 #header
 {
 	display: none;
 }
 
-.toolbar-mainbar
+/* set the toolbar to the background color, including the 1px lines around */
+.toolbar-mainbar,
+.toolbar-mainbar.toolbar-large::after,
+.toolbar-mainbar.toolbar-large::before
 {
 	background-color: var(--colorBg) !important;
 }
 
-.toolbar-mainbar.toolbar-large::after
-{
-	background-color: var(--colorBg) !important;
-}
-
+/* set the address field to a lighter color than the background for visibility */
 .addressfield
 {
 	background-color: var(--colorBgLighter) !important;
 }
 
+/* set the color of the toolbar buttons to be visible over the background */
 .toolbar-mainbar .button-toolbar button
 {
 	color: var(--colorImageForeground, var(--colorFg)) !important;

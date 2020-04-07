@@ -1,6 +1,7 @@
+/* buttons of the toolbar */
 .toolbar-mainbar .button-toolbar button
 {
-	transition: all 0.3s;
-	border-radius: 50% !important;
-	margin: 2px !important;
+	transition: all 0.3s; /* fading effect */
+	border-radius: 50% !important; /* circular outline for highlight */
+	margin: 2px !important; /* increase the margin a bit */
 }
