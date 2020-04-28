@@ -3,5 +3,4 @@
 {
 	transition: all 0.3s; /* fading effect */
 	border-radius: 50% !important; /* circular outline for highlight */
-	margin: 2px !important; /* increase the margin a bit */
 }
