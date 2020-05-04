@@ -1,0 +1,40 @@
+.toolbar-mainbar
+{
+    -webkit-app-region: drag;
+}
+
+/* Remove header */
+#header {
+	min-height: 0 !important;
+}
+ 
+/* Keep Vivaldi button */
+.vivaldi  {
+	z-index: 1;
+    height: 30px!important;
+}
+
+/* Keep window buttons */
+.window-buttongroup {
+	z-index: 1;
+}
+
+.window-buttongroup .window-maximize,
+.window-buttongroup .window-minimize {
+	display: none;
+}
+
+.window-buttongroup .window-close {
+    height: 23px!important;
+}
+
+/* Reduce toolbar size for window buttons */
+.toolbar.toolbar-addressbar {
+	margin-right: 30px;
+    margin-left: 30px;
+}
+
+.addressfield {
+    margin-right: 80px;
+    margin-left: 80px;
+}

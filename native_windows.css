@@ -1,9 +1,3 @@
-/* hide the menu/vivaldi button bar */
-#header
-{
-	display: none;
-}
-
 /* set the toolbar to the background color, including the 1px lines around */
 .toolbar-mainbar,
 .toolbar-mainbar.toolbar-large::after,
