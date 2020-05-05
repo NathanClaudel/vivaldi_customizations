@@ -1,3 +1,4 @@
+/* Allow the window to be dragged from the mainbar */
 .toolbar-mainbar
 {
     -webkit-app-region: drag;
@@ -7,73 +8,109 @@
 #header {
 	min-height: 0 !important;
 }
- 
-/* Keep Vivaldi button */
+
+/* Vivaldi button edits */
 .vivaldi  {
+    /* Keep button */
 	z-index: 1;
+    /* Custom size */
     height: 46px!important;
     width: 48px!important;
+    /* Match visual style of the headerbar */
     background-image: linear-gradient(#2b2b2b, #262626) !important;
     border-top: 1px solid #353535;
     border-bottom: 1px solid #010101;
     margin-top: 1px;
     margin-left: 1px;
+    /* Rounded corner */
     border-top-left-radius: 10px;
 }
 
+/*Removes weird top padding to center vivaldi button*/
 .vivaldi span.application-icon
 {
     padding: 0 !important;
 }
 
-/* Keep window buttons */
+/* Window controls edits */
 .window-buttongroup {
+    /* Keep window buttons */
 	z-index: 1;
+    /* Position: very top right*/
     top: 0px !important;
     right: 0px !important;
+    /* Match visual style of the headerbar*/
     margin-top: 1px;
     margin-right: 1px;
     background-image: linear-gradient(#2b2b2b, #262626) !important;
     border-top: 1px solid #353535;
     border-bottom: 1px solid #010101;
+    /* Rounded corner */
     border-top-right-radius: 10px;
 }
 
+/* Close button edits */
+.window-buttongroup .window-close {
+    /* Custom size */
+    height: 44px!important;
+    width: 48px!important;
+    /* Keep a visible color */
+	color: var(--colorImageForeground, var(--colorFg)) !important;
+}
+
+/* Remove other window buttons */
 .window-buttongroup .window-maximize,
 .window-buttongroup .window-minimize {
 	display: none;
 }
 
-.window-buttongroup .window-close {
-    height: 44px!important;
-    width: 48px!important;
-	color: var(--colorImageForeground, var(--colorFg)) !important;
-}
-
-/* Reduce toolbar size for window buttons */
+/* Address bar edits */
 .toolbar.toolbar-addressbar {
+    /* Custom height */
     min-height:46px !important;
-	margin-right: 48px;
+	/* Leave space for vivaldi button and window controls */
+    margin-right: 48px;
     margin-left: 48px;
+    /* Visual styling */
     background-image: linear-gradient(#2b2b2b, #262626) !important;
     border-top: 1px solid #353535;
     border-bottom: 1px solid #010101;
 }
 
-
-/* remove the 1px lines under the buttons */
+/* Remove the 1px lines under the buttons */
 .address-top .toolbar-mainbar:after
 {
     display: none;
 }
 
+/* Adds space arounf the address field, more convenient for dragging */
 .addressfield {
     margin-right: 50px;
     margin-left: 50px;
 }
 
-/* Add dark border and light background to the window */
+/* Adds a dark border to the window */
 #main
 {
     border: 1px solid #202020;
+}
+
+/* Remove buttons background */
+.toolbar-droptarget,
+.toolbar-extensions
+{
+    background: none !important;
+}
+
+/* Set the address field to a lighter color than the background for visibility */
+.addressfield
+{
+	background-color: var(--colorBgLighter) !important;
+}
+
+
+/* Set the color of the toolbar buttons to be visible over the background */
+.toolbar-mainbar .button-toolbar button
+{
+	color: var(--colorImageForeground, var(--colorFg)) !important;
 }
