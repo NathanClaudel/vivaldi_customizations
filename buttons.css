@@ -1,6 +1,8 @@
 /* buttons of the toolbar */
-.toolbar-mainbar .button-toolbar button
+.toolbar-droptarget button,
+.toolbar-extensions button
 {
 	transition: all 0.3s; /* fading effect */
 	border-radius: 50% !important; /* circular outline for highlight */
+    margin: 3px;
 }

@@ -3,7 +3,13 @@
 .toolbar-mainbar.toolbar-large::after,
 .toolbar-mainbar.toolbar-large::before
 {
-	background-color: var(--colorBg) !important;
+	/*background-color: var(--colorBg) !important;*/
+}
+
+.toolbar-droptarget,
+.toolbar-extensions
+{
+    background: none !important;
 }
 
 /* set the address field to a lighter color than the background for visibility */
@@ -11,6 +17,7 @@
 {
 	background-color: var(--colorBgLighter) !important;
 }
+
 
 /* set the color of the toolbar buttons to be visible over the background */
 .toolbar-mainbar .button-toolbar button
