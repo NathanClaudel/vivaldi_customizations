@@ -5,10 +5,13 @@ CSS_DIR = $(VIVALDI_DIR)/css_mods
 
 apply: apply-css apply-options
 
-apply-css:
-	rm -rf $(CSS_DIR)
+apply-css: clean-css
 	mkdir -p $(CSS_DIR)
 	cp *.css $(CSS_DIR)
+	cp *.svg $(CSS_DIR)
+
+clean-css:
+	rm -rf $(CSS_DIR)
 
 apply-options:
 	python floating_scrollbars.py $(VIVALDI_DESKTOP)
