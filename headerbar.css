@@ -39,6 +39,13 @@
     /* Position: very top right*/
     top: 0px !important;
     right: 0px !important;
+    /* Custom size*/
+    height: 46px;
+    width: 48px;
+    /* Center elements */
+    display: flex;
+    align-items: center;
+    justify-content: center;
     /* Match visual style of the headerbar*/
     margin-top: 1px;
     margin-right: 1px;
@@ -52,10 +59,20 @@
 /* Close button edits */
 .window-buttongroup .window-close {
     /* Custom size */
-    height: 44px!important;
-    width: 48px!important;
+    height: 28px !important;
+    width: 28px !important;
+    border-radius: 50%;
+    background: none !important;
     /* Keep a visible color */
 	color: var(--colorImageForeground, var(--colorFg)) !important;
+    transition: all 0.2s;
+    border: 1px solid rgba(0, 0, 0, 0) !important;
+}
+
+.window-buttongroup .window-close:hover
+{
+    border: 1px solid #090909 !important;
+    background-color: #373737 !important;
 }
 
 /* Remove other window buttons */
@@ -65,7 +82,7 @@
 }
 
 /* Address bar edits */
-.toolbar.toolbar-addressbar {
+.UrlBar {
     /* Custom height */
     min-height:46px !important;
 	/* Leave space for vivaldi button and window controls */
@@ -84,7 +101,7 @@
 }
 
 /* Adds space arounf the address field, more convenient for dragging */
-.addressfield {
+.UrlBar-AddressField {
     margin-right: 50px;
     margin-left: 50px;
 }
