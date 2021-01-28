@@ -125,9 +125,14 @@
 	background-color: var(--colorBgLighter) !important;
 }
 
-
 /* Set the color of the toolbar buttons to be visible over the background */
 .toolbar-mainbar .button-toolbar button
 {
 	color: var(--colorImageForeground, var(--colorFg)) !important;
+}
+
+/* Center the buttons in the toolbar */
+.toolbar-mainbar .button-toolbar
+{
+    align-self: center;
 }
