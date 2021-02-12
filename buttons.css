@@ -9,7 +9,7 @@
 	background-image: linear-gradient(#393939, #323232);
 }
 
-.toolbar-extensions button
+.toolbar-extensions > .button-toolbar > button
 {
 	transition: all 0.3s; /* fading effect */
     margin: 3px 0px 3px 0px;
@@ -20,7 +20,7 @@
 }
 
 /* Last extension button rounded on the left */
-.toolbar-extensions div:first-child button
+.toolbar-extensions > .button-toolbar:first-of-type > button
 {
     border: 1px solid #1b1b1b !important;
     margin-left: 5px;
@@ -28,14 +28,14 @@
 }
 
 /* Last extension button rounded on the right */
-.toolbar-extensions div:last-child button
+.toolbar-extensions > .button-toolbar> button[title="Toggle extensions"] 
 {
     margin-right: 5px;
     border-radius: 0 5px 5px 0 !important;
 }
 
 /* No separator */
-.toolbar-extensions div:first-child::before
+.toolbar-extensions > .button-toolbar:first-of-type::before
 {
     display: none!important;
 }
