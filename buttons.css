@@ -1,6 +1,5 @@
 /* buttons of the toolbar */
-.toolbar-droptarget button,
-.toolbar-extensions button
+.toolbar-droptarget button
 {
 	transition: all 0.3s; /* fading effect */
 	border-radius: 5px !important; /* rounded corners */
@@ -8,6 +7,37 @@
     border: 1px solid #1b1b1b !important;
     box-shadow: 0px 1px 1px #010101;
 	background-image: linear-gradient(#393939, #323232);
+}
+
+.toolbar-extensions button
+{
+	transition: all 0.3s; /* fading effect */
+    margin: 3px 0px 3px 0px;
+    border: 1px solid #1b1b1b !important;
+    border-left: 0 !important;
+    box-shadow: 0px 1px 1px #010101;
+	background-image: linear-gradient(#393939, #323232);
+}
+
+/* Last extension button rounded on the left */
+.toolbar-extensions div:first-child button
+{
+    border: 1px solid #1b1b1b !important;
+    margin-left: 5px;
+    border-radius: 5px 0 0 5px !important;
+}
+
+/* Last extension button rounded on the right */
+.toolbar-extensions div:last-child button
+{
+    margin-right: 5px;
+    border-radius: 0 5px 5px 0 !important;
+}
+
+/* No separator */
+.toolbar-extensions div:first-child::before
+{
+    display: none!important;
 }
 
 /* join previous and next buttons */
@@ -25,7 +55,6 @@ button[title~="next"]
     border-radius: 0 5px 5px 0 !important;
     border-left: 0 !important;
 }
-
 
 .addressfield
 {
