@@ -24,6 +24,8 @@
     margin-left: 1px;
     /* Rounded corner */
     border-top-left-radius: 10px;
+    /*Set the color of the logo*/
+	color: var(--colorImageForeground, var(--colorFg)) !important;
 }
 
 /*Removes weird top padding to center vivaldi button*/
