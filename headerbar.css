@@ -9,6 +9,11 @@
 	min-height: 0 !important;
 }
 
+/* Hide the vivaldi button when the interface is hidden */
+.address-top-off .vivaldi {
+    display: none !important;
+}
+
 /* Vivaldi button edits */
 .vivaldi  {
     /* Keep button */
@@ -32,6 +37,11 @@
 .vivaldi span.application-icon
 {
     padding: 0 !important;
+}
+
+/* Hide the buttons when the interface is hidden */
+.address-top-off .window-buttongroup {
+    display: none !important;
 }
 
 /* Window controls edits */
