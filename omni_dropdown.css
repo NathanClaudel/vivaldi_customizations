@@ -1,6 +1,0 @@
-/* set translucent background with blur effect */
-.OmniDropdown
-{
-    background: var(--colorBgAlpha);
-    backdrop-filter: blur(10px);
-}

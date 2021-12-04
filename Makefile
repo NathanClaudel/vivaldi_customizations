@@ -8,7 +8,6 @@ apply: apply-css apply-options
 apply-css: clean-css
 	mkdir -p $(CSS_DIR)
 	cp *.css $(CSS_DIR)
-	cp *.svg $(CSS_DIR)
 
 clean-css:
 	rm -rf $(CSS_DIR)
@@ -17,4 +16,4 @@ apply-options:
 	python floating_scrollbars.py $(VIVALDI_DESKTOP)
 
 edit:
-	$(VIVALDI_EXE) --flag-switches-begin --debug-packed-apps --silent-debugger-extension-api --flag-switches-end
+	$(VIVALDI_EXE) --flag-switches-begin --debug-packed-apps --silent-debugger-extension-api --password-store=basic --flag-switches-end

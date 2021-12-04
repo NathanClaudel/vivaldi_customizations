@@ -2,7 +2,7 @@
 
 import sys
 
-OPTION = "--enable-features=OverlayScrollbar"
+OPTION = "--enable-features=OverlayScrollbar --password-store=basic"
 
 filename = sys.argv[1]
 f = open(filename, "r")
