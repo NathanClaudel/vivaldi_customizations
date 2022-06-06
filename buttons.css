@@ -4,56 +4,19 @@
 	transition: all 0.3s; /* fading effect */
 	border-radius: 5px !important; /* rounded corners */
     margin: 3px;
-    border: 1px solid #1b1b1b !important;
-    /* box-shadow: 0px 1px 1px #010101; */
-	background-color: var(--colorBgAlphaHeavy) !important;
 }
 
 .toolbar-extensions > .button-toolbar > button
 {
 	transition: all 0.3s; /* fading effect */
+	border-radius: 5px !important; /* rounded corners */
     margin: 3px 0px 3px 0px;
-    border: 1px solid #1b1b1b !important;
-    border-left: 0 !important;
-    /* box-shadow: 0px 1px 1px #010101; */
-	background-color: var(--colorBgAlphaHeavy) !important;
-}
-
-/* Last extension button rounded on the left */
-.toolbar-extensions > .button-toolbar:first-of-type > button
-{
-    border: 1px solid #1b1b1b !important;
-    margin-left: 5px;
-    border-radius: 5px 0 0 5px !important;
-}
-
-/* Last extension button rounded on the right */
-.toolbar-extensions > .button-toolbar> button[title="Toggle extensions"] 
-{
-    margin-right: 5px;
-    border-radius: 0 5px 5px 0 !important;
 }
 
 /* No separator */
 .toolbar-extensions > .button-toolbar:first-of-type::before
 {
     display: none!important;
-}
-
-/* join previous and next buttons */
-.button-toolbar[title~="previous"] button,
-button[title~="previous"]
-{
-    margin-right: 0;
-    border-radius: 5px 0 0 5px !important;
-}
-
-.button-toolbar[title~="next"] button,
-button[title~="next"]
-{
-    margin-left: 0;
-    border-radius: 0 5px 5px 0 !important;
-    border-left: 0 !important;
 }
 
 .UrlBar-AddressField {

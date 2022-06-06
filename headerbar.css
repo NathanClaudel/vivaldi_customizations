@@ -34,6 +34,12 @@
 	color: var(--colorImageForeground, var(--colorFg)) !important;
 }
 
+.vivaldi svg {
+    height: 20px!important;
+    width: 20px!important;
+    margin-top: 0!important;
+}
+
 /*Removes weird top padding to center vivaldi button*/
 .vivaldi span.application-icon
 {
@@ -93,14 +99,6 @@
 
 /* Address bar edits */
 .UrlBar {
-    /* Custom height */
-    min-height:46px !important;
-	/* Leave space for vivaldi button and window controls */
-    margin-right: 48px;
-    margin-left: 48px;
-    /* Visual styling */
-    background-color: var(--colorImageRightFgAlphaHeaviest) !important;
-    backdrop-filter: var(--backgroundBlur);
 }
 
 /* Remove the 1px lines under the buttons */
@@ -122,10 +120,16 @@
 }
 
 /* Remove buttons background */
-.toolbar-droptarget,
-.toolbar-extensions
+.mainbar > .toolbar
 {
-    background: none !important;
+    /* Custom height */
+    min-height:46px !important;
+	/* Leave space for vivaldi button and window controls */
+    margin-right: 48px;
+    margin-left: 48px;
+    /* Visual styling */
+    background-color: var(--colorImageRightFgAlphaHeaviest) !important;
+    backdrop-filter: var(--backgroundBlur);
 }
 
 /* Set the color of the toolbar buttons to be visible over the background */
